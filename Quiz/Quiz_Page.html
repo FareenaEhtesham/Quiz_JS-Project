@@ -1,0 +1,174 @@
+<html>
+    <head>
+     
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>Interactive Fareena Quiz</title>
+        <link rel="stylesheet" href="form-style.css">
+    </head>
+    
+    <body>
+
+<div class="intro py-3 bg-white ">
+
+    <div class="container">
+        <h2 class="text-primary dispaly-3 my-4" >
+            Javascript Quiz
+        </h2>
+    </div>
+</div>
+<!--score section-->
+
+<div class="result d-none py-4  bg-light text-center">
+
+<div class="container lead">
+
+<h2 class="text-primary">Your Score is<span class="text-primary dispaly-4 p-3">0%</span>%</h2>
+
+</div>
+</div> 
+
+
+
+<!--Quiz section-->
+<div class="quiz py-4">
+
+    <div class="container">
+        <h2 class="my-5 text-white">Ok so lets start....</h2>
+
+            <form name="myform" class="quiz-form">
+
+                <div class="my-5">
+    <p class="lead font-weight-normal" style="font-size: 25px;">1- What is alternate name for JavaScript?</p>
+    <div class="form-check my-2 text-white-50">
+    <input type="radio" name="q1" value="A">
+    
+    <label class="form-check-label">ECMA script</label>
+</div><br/>
+<div class="form-check my-2 text-white-50">
+    <input type="radio" name="q1" value="B">
+    
+    <label class="form-check-label">ASC script</label>
+</div><br/>
+
+<div class="form-check my-2 text-white-50">
+ <input type="radio" name="q1" value="C" >
+ 
+ <label class="form-check-label">JS</label>
+             </div>
+                </div>
+
+
+             <div class="my-5">
+        <p class="lead font-weight-normal " style="font-size: 25px;">2- What are manipulators?</p>
+        <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q2"  value="A">
+        <label class="form-check-label">
+ 
+            Manipulators are the functions which can be used 
+            in conjunction with the insertion(<<)& extraction(>>) operators 
+            of object
+
+
+        </label></div><br/>
+        <div class="form-check my-2 text-white-50">    
+        <input type="radio" name="q2"  value="B"><label class="form-check-label">
+
+
+            Manipulators are the functions which can be used in insertion (<<) 
+            operator of object
+
+        </label>
+    </div><br/>
+
+    <div class="form-check my-2 text-white-50">
+         <input type="radio" name="q2" value="C"><label class="form-check-label">
+
+
+            Manipulators are the functions which can't be used 
+            in conjunction with the insertion(<<)& extraction(>>) operators 
+            of object
+
+
+
+         </label>
+         </div>
+         </div>
+
+                 
+                
+        <div class="my-5">
+                    <p class="lead font-weight-normal" style="font-size: 25px;">
+        3- Which of the following function of Array object adds one or more elements 
+        to the end of an array and returns the new length of the array? </p>
+            <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="A"><label class="form-check-label">pop()</label>
+            </div>
+            <br/>
+            <div class="form-check my-2 text-white-50">        
+            <input type="radio" name="q3" value="B" ><label class="form-check-label">push()</label><br/>
+</div><br/>
+<div class="form-check my-2 text-white-50">
+             <input type="radio" name="q3" value="C"><label class="form-check-label">map()</label>
+             </div>
+            </div>
+
+            <div class="my-5">
+                <p class="lead font-weight-normal" style="font-size: 25px;">
+    4- Which of the below  is used in JS to insert special character? </p>
+        <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q4" value="A" ><label class="form-check-label">&</label>
+
+</div><br/>
+
+<div class="form-check my-2 text-white-50">
+        <input type="radio" name="q4" value="B"><label class="form-check-label">$</label>
+        </div><br/>
+        <div class="form-check my-2 text-white-50">
+         <input type="radio" name="q4" value="C"><label class="form-check-label">/</label>
+         </div>
+        </div>
+
+        <div class="my-5">
+            <p class="lead font-weight-normal" style="font-size: 25px;">
+        5- Which statement is true?</p>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q5" value="A">
+        <label class="form-check-label">
+         Early binding refers to the assignment of variables during run time,
+         whereas late Binding refers to design time.
+    </label></div><br/>
+    <div class="form-check my-2 text-white-50">
+    <input type="radio" name="q5" value="B"><label class="form-check-label">
+
+        Early binding refers to the assignment of variables during design time,
+        whereas late Binding refers to run time.
+       
+    
+    </label></div><br/>
+    <div class="form-check my-2 text-white-50">
+     <input type="radio" name="q5" value="C"><label class="form-check-label">
+         
+                Both are at Run time
+     </label>
+     </div>
+    </div> 
+
+
+<div class="text-center">
+
+    <input type="submit" value="submit" name="submit" class="btn btn-light">
+
+</div>
+
+            </form>
+       
+    </div>
+</div>
+
+
+
+
+
+</body>
+<script src="./app.js"></script>
+</html>

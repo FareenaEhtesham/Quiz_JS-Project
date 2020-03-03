@@ -1,0 +1,47 @@
+
+img{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    
+}
+
+form{
+    width: 40%;
+    height: 50%;
+    border: 1px solid green;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    box-shadow: 5px 5px 8px green
+}
+
+input{
+    width: 60%;
+    height: 18%;
+  margin-top: 8%;
+    border-radius: 18px;
+    outline: none;
+}
+#sub{
+    font-size: 22px;
+    -webkit-text-fill-color: white;
+    text-align: center;
+}
+
+#sub:hover{
+    background-color: white;
+}
+
+h2{
+    position: absolute;
+    bottom: 70%;
+    right: 50%;
+    left: 7%;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 1.9;
+}
+ 
